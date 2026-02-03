@@ -1,0 +1,137 @@
+{
+  "accounts": [
+    {
+      "id": 1,
+      "name": "Kas Kecil",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "Kas Besar",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "FB Ads",
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "FB Ads White List",
+      "active": true
+    },
+    {
+      "id": 5,
+      "name": "Biaya Paper ID",
+      "active": true
+    },
+    {
+      "id": 6,
+      "name": "Wirahadi Teja 559",
+      "active": true
+    }
+  ],
+  "transfers": [
+    {
+      "id": 1,
+      "transfer_from": 1,
+      "transfer_to": 2,
+      "amount": 100000,
+      "date": "2026-02-02",
+      "note": "Test pertama",
+      "document": null,
+      "created_at": "2026-02-02T08:54:41.966Z"
+    },
+    {
+      "id": 2,
+      "transfer_from": 1,
+      "transfer_to": 2,
+      "amount": 100000,
+      "date": "2026-02-02",
+      "note": "Bukti transfer",
+      "document": {
+        "originalName": "credit.JPG",
+        "storedName": "credit_JPG-2026-02-02T09-37-52-779Z.jpg",
+        "mimeType": "image/jpeg",
+        "size": 44226,
+        "url": "/uploads/credit_JPG-2026-02-02T09-37-52-779Z.jpg"
+      },
+      "created_at": "2026-02-02T09:37:52.785Z"
+    },
+    {
+      "id": 3,
+      "transfer_from": 1,
+      "transfer_to": 2,
+      "amount": 100000,
+      "date": "2026-02-02",
+      "note": "test dari laravel connector",
+      "document": null,
+      "created_at": "2026-02-02T10:19:34.256Z"
+    },
+    {
+      "id": 4,
+      "transfer_from": 1,
+      "transfer_to": 2,
+      "amount": 100000,
+      "date": "2026-02-02",
+      "note": "test dari laravel connector + file",
+      "document": {
+        "originalName": "NKNK.pdf",
+        "storedName": "NKNK-2026-02-02T10-24-39-130Z.pdf",
+        "mimeType": "application/pdf",
+        "size": 358753,
+        "url": "/uploads/NKNK-2026-02-02T10-24-39-130Z.pdf"
+      },
+      "created_at": "2026-02-02T10:24:39.136Z"
+    },
+    {
+      "id": 5,
+      "transfer_from": 1,
+      "transfer_to": 2,
+      "amount": 100000,
+      "date": "2026-02-02",
+      "note": "test dari laravel connector",
+      "document": null,
+      "created_at": "2026-02-03T02:47:59.160Z"
+    },
+    {
+      "id": 6,
+      "transfer_from": 1,
+      "transfer_to": 6,
+      "amount": 100000,
+      "date": "2026-02-02",
+      "note": "test file",
+      "document": {
+        "originalName": "NKNK.pdf",
+        "storedName": "NKNK-2026-02-03T03-14-36-146Z.pdf",
+        "mimeType": "application/pdf",
+        "size": 358753,
+        "url": "/uploads/NKNK-2026-02-03T03-14-36-146Z.pdf"
+      },
+      "created_at": "2026-02-03T03:14:36.159Z"
+    }
+  ],
+  "lastTransferId": 6,
+  "deposits": [
+    {
+      "id": 1,
+      "deposit_to": 2,
+      "deposit_from": null,
+      "amount": 1500000,
+      "date": "2026-02-03",
+      "note": "Setoran tunai",
+      "document": null,
+      "created_at": "2026-02-03T03:05:57.340Z"
+    },
+    {
+      "id": 2,
+      "deposit_to": 1,
+      "deposit_from": 2,
+      "amount": 100000,
+      "date": "2026-02-02",
+      "note": "test deposit",
+      "created_at": "2026-02-03T03:34:16.908Z"
+    }
+  ],
+  "lastDepositId": 2
+}
